@@ -1,0 +1,79 @@
+* { 
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+body {
+	  	background-color: #F8F8F8;
+     }
+    h1 {
+      color: #880000;
+      font-family: garamond, century, serif;
+      font-variant: small-caps;
+      font-size: 3em;
+      margin-top: 20px;
+      	}
+    div {
+    	text-align: center; 	
+    	margin-bottom: 80px;
+    	}
+    #poser {
+    	height: 250px;
+    	margin-right: 40px;
+    	vertical-align: text-bottom;
+    	border-right: 5px outset #aaa;
+    	border-bottom: 5px groove #aaa; 
+    	margin-top: 40px;
+
+    }
+    #poser:hover
+    {
+    		height: 350px;
+    }
+    #mat {
+    	height: 250px;
+    	margin-left: 40px;
+    	vertical-align: text-bottom;
+    	border-right: 5px outset #aaa;
+    	border-bottom: 5px groove #aaa; 
+    	margin-top: 40px;
+
+    	}
+    #mat:hover {
+    	height: 350px;
+    }
+    #slogan {
+      color: #085585;
+      font-family: 'Josefin Sans', frutiger, sans-serif; 
+      font-style: italic;
+      padding-top: 40px;
+      padding-bottom: 60px;
+      }
+      hr {
+      	border: 2.5px outset #aaa; 
+      	margin-top: 100px;
+      }
+
+      footer p {
+      	color: #9f6208;
+      	font-family: 'Josefin Sans', frutiger, sans-serif; 
+      	font-size: 0.75em;
+      	padding: 0px;
+      	padding-top: 10px;
+      	padding-bottom: 10px;
+      }
+      footer ul {
+      	color: #9f6208;
+      	font-family: 'Josefin Sans', frutiger, sans-serif; 
+      	font-size: 0.75em;
+		font-weight: 400;
+		line-height: 150%;
+      	list-style: none;
+      	margin-left: 20px;
+      }
+      #Product_Sub-bullets {
+      	font-size: 1em;
+      	color: #9f6208;
+      	line-height: 100%;
+      }
