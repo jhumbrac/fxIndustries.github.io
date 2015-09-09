@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans);
+@import url(https://fonts.googleapis.com/css?family=Italiana);
+
 * { 
 	padding: 0px;
 	margin: 0px;
@@ -9,7 +12,7 @@ body {
      }
     h1 {
       color: #880000;
-      font-family: garamond, century, serif;
+      font-family: 'Expletus Sans', cursive;
       font-variant: small-caps;
       font-size: 3em;
       margin-top: 20px;
@@ -45,7 +48,7 @@ body {
     }
     #slogan {
       color: #085585;
-      font-family: 'Josefin Sans', frutiger, sans-serif; 
+	  font-family: 'Italiana', serif;
       font-style: italic;
       padding-top: 40px;
       padding-bottom: 60px;
