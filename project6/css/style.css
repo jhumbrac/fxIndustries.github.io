@@ -481,6 +481,7 @@ Or, would you have to go through the process of cropping the original jpg?*/
 
 /*   Notes:  I find the html language to be clunky and undisciplined, but I don't have a basis for comparison.  Alignment was also a pain.  I see the necessity of jquery for everything, especially aligning the bottom divs horizontally.  
 vertical and horizontal lines don't always show up;  
+case-sensitive.
 
 I used %s as much as possible for responsiveness, added max width because the picture res was so low, Vertical line, hover font color, hover/wobble (webkit), 
 
