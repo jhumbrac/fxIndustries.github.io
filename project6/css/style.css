@@ -1,0 +1,487 @@
+
+* {
+	font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', 'Italiana', Didot, Helvetica, Sans;  /*why isn't this working? */
+}
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', 'Italiana', Didot, Helvetica, Sans;  /*why isn't this working? */
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+	  }	
+	.Container {
+		max-width: 1000px;
+		margin: auto;
+		font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', 'Italiana', Didot, Helvetica, Sans;   
+	}
+    h1 {
+      color: #000000;
+      font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', Helvetica, Sans;
+      text-transform: uppercase;
+      font-size: 3em;
+      padding: 1em;
+      text-align: center;
+      	}
+     #TopNav {
+     	text-align: center;
+     	border-bottom: 1px black solid;
+     	margin-left: 5%;
+     	margin-right: 8%;
+     	margin-bottom: 2em;
+     	line-height: 1em;
+     	text-transform: uppercase;
+     }
+     .Ref {
+        display: inline-block;
+     	padding: 10px 5%;
+     	text-transform: uppercase;
+     	text-decoration: none;
+     	border: none;
+     	color: black;
+     }
+
+     #Ref_Blog, #Ref_Gallery {
+     	background-color: rgba(144,195,192,0.10);
+     }
+
+     .Ref:hover {
+     	 color: rgb(200,80,80);
+     	 font-weight: bold;
+     }
+
+     div {
+     	float: left;
+     	display: inline-block;
+     	
+     }
+     .clearfix:after {
+		visibility: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+}
+  
+     hr {
+     	height: 1px;
+     	border: none;
+     	color: rgb(154,143,139);
+     	background-color: rgb(154,143,139);
+     	width: 90%;
+     	float: left;
+     	margin: 15px 0px 15px 0px;
+     }
+     
+     .HRhead {
+     	height: 2px;
+     	color: black;
+     	background-color: black;
+     	width: 90%;
+     	float: left;
+     	margin: 25px 0px 15px 0;
+     }
+     .HRheadL {            /*I don't know why i should need this paragraph when .HRhead should take care of everything, but everything gets messed up without it*/
+     	height: 3px;
+     	color: black;
+     	background-color: black;
+     	width: 90%;
+     	float: left;
+     	margin: 25px 0px 15px 0;
+     }
+     
+     h2 {
+     	clear: both;
+     	color: rgb(200,80,80);
+     }
+
+     #photobooth_blog {
+     	float: left;
+     	}
+
+     	.figL_blog {
+     		float: left;
+     		margin-right: 5%;
+     	}
+
+     h5 {
+     	color: rgba(144,195,192,0.75);
+     	font-size: 1em;
+     	font-weight: bold;
+     	text-transform: uppercase;
+     	width: 90%;
+     	line-height: 150%;
+     	margin-left: 0;
+     }
+    
+     p {
+      width: 90%;
+      color: black;
+     }
+ 	.Cont {
+     	display: inline;
+     	text-decoration: none;
+     	color: rgba(144,195,192,0.75);
+     }
+     .Cont:hover {
+     	color: rgb(200,80,80);
+     }
+     .Cont:hover p {
+     	color: rgb(200,80,80);
+     }
+
+     #bi1, #bi1_blog, #bi1hr, #bi1hr_blog {
+     	width: 60%;
+     	padding-left: 5%;
+     	color: rgb(154,143,139);
+     }
+         #mon {
+     	width: 97%;
+     	padding-left: 5%;
+     	color: rgb(154,143,139);}
+
+     #bi1_blog, #bi1hr_blog {
+     	width: 50%;
+     }
+     #bi1_blog {
+     }
+     /*Why is the margin so big on the first div?  As a result, I can add a dividing vertical line neither using border nor a middle div.  Argh.*/
+  
+     #bi2, #bi2hr, #bi2_blog, #bi2hr_blog {
+     	width: 30%;  /*How do you tell the last padding be horizonally aligned for all columns?*/
+     	display: inline-block;
+     	color: rgb(154,143,139);
+     }
+     #bi2_blog, #bi2hr_blog {
+     	width: 35%;
+     }
+     #bi2hr_blog {
+     	margin-left: 5%;
+     }
+     #bi1_subL {
+     	width: 33%;
+     	margin-right: 2%;
+     }
+     #bi1_subR {
+     	width: 52%;    /*How do you tell the last padding be horizonally aligned for all columns?*/
+     	margin-right: 0%;  /*???*/
+     }
+
+     /*???? How can I make and center a vertical line between the two divs????  The following is far insufficient, and borders on the divs also wouldn't work.*/
+/* */    #breakL {      
+     	float: left;
+     	width: 1px;
+     	position: relative;
+     	top: 3.2em;
+     	padding-top: 50px;
+     	position: ;     	
+     	height: 21em;
+     	display: inline-block;
+     	background-color: rgb(154,143,139);
+     	margin: 40px 5% 0 auto;
+
+     	
+
+     }
+     .Pics1, .Pics2 {
+     	display: block;
+		text-align: left; 
+		padding: 5% 5% 30% 5%;  
+		background-color: rgba(144,195,192,0.15); 
+		margin-bottom: 5%;
+	}
+
+	.Pics1 {
+		width: 90%;
+		padding-bottom: 28%;  /*how to automate?*/
+		margin-right: 25%;/*???Why is there no effect???*/  
+	}
+	.Pics2 {
+		width: 90%;
+		padding-bottom: 15.5%;
+		margin-left: 5.5%;
+	}
+	.Pics3 {
+		display: block;
+		text-align: left; 
+		width: 80%;
+		padding: 5% 5% 15% 5%;  
+		background-color: rgba(205,147,123,0.25); 
+		margin-right: 10%;   
+		margin-bottom: 5%;
+	}
+	/*div.Pics3:hover	{
+		height:9%;
+	}*/
+/*
+.Pics1:hover img.title{
+	}
+	.img-title {
+		position: absolute;
+		bottom: 0;
+		padding: 0 0 10px 0;
+		text-align: center;
+	}
+	.img-title h5 {
+		position: absolute;
+		color: #000;
+		top: 0%;
+		width: 100%;
+		text-align: center;
+	}
+	*/
+
+	figcaption {        /*Is there a faster way to add a description of the picture???*/
+		text-align: left;
+		color: rgba(205,147,123,0.25);;
+		position: relative;
+		top: -35px;
+		padding-left: 5%;
+
+	}
+	/*
+	#cupcakes:hover figcaption{
+		color: rgb(200,80,80);
+	}
+	*/
+
+    .2nd_bi_line {
+    	height: 1px;
+    	color: rgb(154,143,139);
+     	background-color: rgb(154,143,139);  /*Why aren't these colors affecting the output?  Does the hr {} function override what is here?*/
+     	width: 90%;
+     	float: left;
+     	margin: 30px 0px 10px 0px;
+    }
+    .2nd_bi_line_blog {
+    	height: 1px;
+     	color: rgba(205,147,123,0.25);
+     	background-color: rgba(205,147,123,0.25);
+     	width: 90%;
+     	float: left;
+     	margin: 30px 0px 10px 0px;
+    }
+    #footer {
+    	clear: both;
+    	width: 87%;
+    	margin-left: 5%;
+    	padding: 5% 0 5% 0px;
+    	text-align: center;
+
+    }
+    div.Foot_Div {   /*Why is there a different resul when I only write ".Foot_Div"?*/
+    	width: 29%;
+    	/*height: 100%;*/
+    	margin: 0;
+    	display: inline-block;
+    }
+ 	div#Foot_Div1 {
+    	float: left;
+    }
+     div#Foot_Div2 {
+    	margin: 0 6.5%;     /*How can you get this to just cener between the other 2 images?*/
+    	text-align: center;  /* "" */
+    }
+    div#Foot_Div3 {
+    	float: right;
+
+
+    }
+    div#ZBP {
+
+    }
+  
+    .Foot_Head, #Foot_Head1, #Foot_Head2, #Foot_Head3 {   /*this didn't work, when I tried to write it as a class*/
+    	background-color: rgba(154,143,139,.15);
+    	line-height: 2em;
+    }
+    .Foot_Head_text {
+    	text-decoration: none;
+    	color: rgba(205,147,123,0.75);
+
+    }
+    .foot_hr {
+    	   	clear: both;
+    	   	width: 100%;
+    }
+
+    #chai_foot, #brunch_foot, #ZBP {
+    	width: 90%;
+    	padding: 5% 5% 0 5%;
+    	/*border-top: 1px rgb(154,143,139) solid;*/
+    	background-color: rgba(154,143,139,.15);
+    	float: left;
+    	display: inline-block;
+    }
+ 
+#ZBP {
+	font-size: 1.3em;
+
+}
+/*How to automatically make the height match that of the first two?*/
+
+
+
+    h3 {
+    	clear: both;
+    	color: black;
+     	font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', Helvetica, Sans;
+      	text-transform: uppercase;
+     	 font-size: 2em;
+     	 padding: 1em;
+     	 text-align: center;
+     	 display: block;
+    }
+    #bottom {     /*why do these bottom HRs appear to disappear when I stretch the screen extra wide?*/
+    	clear: both;
+    	width: 100%;
+    	line-height: 1px;
+
+    }
+
+    #contact {
+    	color: rgb(154,143,139);
+    	text-decoration: none;
+  		border-bottom: dotted 1px rgb(154,143,139);
+  			text-transform: lowercase;
+    }
+  
+   /*Why is this myMove portion not working?*/
+   @-webkit-keyframes myMove {
+   	0% {top: 0px;}
+	 20% {top: 200px;}
+	 50% {top: 50px;}
+	 100% {top: 100px;}
+   }
+/*Not sure what I did here;  this was working earlier, before I changed it.
+   #cupcakes:hover {  /
+	-webkit-animation-name: myMove;
+	-webkit-animation-duration: 5s; 
+	-webkit-animation-iteration-count: 1;
+   }
+@keyframes myMove {
+	 0% {top: 0px;}
+	 20% {top: 200px;}
+	 50% {top: 50px;}
+	 100% {top: 100px;}
+		}
+*/
+#cupcakes:hover {
+	/*what is the best way to display captions/descriptions?*/
+}
+
+.bi_blog:hover, .bi:hover, #bi1_blog:hover, #bi2:hover, .Foot_Div:hover, #cupcakes:hover, #nuts:hover, #cocoa:hover, #brunch:hover, #chai:hover, #bacon:hover, #photobooth:hover, #pinecones:hover, #yarn:hover { -webkit-animation: wobble 5s;}
+
+@-webkit-keyframes wobble {
+  17% {
+    -webkit-transform: translateY(5%);
+    transform: translateY(5%);
+  }
+  33% {
+    -webkit-transform: translateY(-4%);
+    transform: translateY(-4%);
+  }
+  50% {
+    -webkit-transform: translateY(3%);
+    transform: translateY(3%);
+  }
+  67% {
+    -webkit-transform: translateY(-2%);
+    transform: translateY(-2%);
+  }
+  83% {
+    -webkit-transform: translateY(1%);
+    transform: translateY(1%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+
+/*@keyframes wobble {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}*/
+
+
+/*.rotate:hover {
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+*/
+    
+/*How can you tell CSS to only display a portion of an image file? 
+Or, would you have to go through the process of cropping the original jpg?*/
+
+
+/*@-webkit-keyframes wobble {
+	0% { -webkit-transform: rotate(0deg); }
+	 20% { -webkit-transform: rotate(2deg); }
+	 50% { -webkit-transform: rotate(-2deg); }
+	 100% { -webkit-transform: rotate(0deg); }
+		}
+		*/
+/*
+.wobble {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.wobble:hover {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+   
+   */
+
+/*   Notes:  I find the html language to be clunky and undisciplined, but I don't have a basis for comparison.  Alignment was also a pain.  I see the necessity of jquery for everything, especially aligning the bottom divs horizontally.  
+vertical and horizontal lines don't always show up;  
+
+I used %s as much as possible for responsiveness, added max width because the picture res was so low, Vertical line, hover font color, hover/wobble (webkit), 
+
+
