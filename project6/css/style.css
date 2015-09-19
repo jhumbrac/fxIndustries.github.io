@@ -479,10 +479,11 @@ Or, would you have to go through the process of cropping the original jpg?*/
    
    */
 
-/*   Notes:  I find the html language to be clunky and undisciplined, but I don't have a basis for comparison.  Alignment was also a pain.  I see the necessity of jquery for everything, especially aligning the bottom divs horizontally.  
-vertical and horizontal lines don't always show up;  
-case-sensitive.
+/*   Notes:  Instructions: photographer blog, clean and modern, newspaper-inspired layouts and fonts, light colors + b/w, landing page + blog page. 
 
-I used %s as much as possible for responsiveness, added max width because the picture res was so low, Vertical line, hover font color, hover/wobble (webkit), 
+ I don't have a basis for comparison, but I find the html language to be clunky and undisciplined.  Alignment was a particular pain.  I see the necessity of jquery for everything, especially aligning the bottom divs horizontally.  I started working on that at least for the ZBT footer, but I didn't finish.  My code is disorganized.  I wasted a lot of time fiddling around due to case-sensitive issues, etc.
 
+I used %s as much as possible for the sake of responsiveness, added max width because the picture res was so low that the stretched pages look terrible, added a Vertical line which was surprisingly tricky to incorporate, added hover font color, added a hover/wobble for fun (webkit).  Not sure why my lines don't always show up.
 
+Picture-focused, b&w + muted colors (mint, purply grey, browny orange). "newspaper-inspired" in that it somewhat mimics cleaner online newspapers.  Poiret One typeface because it is a clean Art Deco-like typeface on Google Fonts. I thought traditional newspaper fonts, e.g., NYT's looked too busy.  The New Yorker title is a bit cleaner and somewhat Art Deco-like, which I think is a good idea for this project, and that old-fashionedness is somewhat consistent with the NYT types. 
+I created my own categories and started to add a "Gallery" section for fun, until I realized it would be really difficult, and I ran out of time.
