@@ -1,47 +1,37 @@
-
-* {
-	font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', 'Italiana', Didot, Helvetica, Sans;  /*why isn't this working? */
-}
-}
+* { margin:0; padding:0; box-sizing:border-box; }
 html {
 	height: 100%;
 	width: 100%;
 }
 body {
-	font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', 'Italiana', Didot, Helvetica, Sans;  /*why isn't this working? */
-	background-color: #FFFFFF;
-	height: 100%;
-	width: 100%;
-	  }	
-	.Container {
-		max-width: 1000px;
-		margin: auto;
-		font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', 'Italiana', Didot, Helvetica, Sans;   
-	}
-    h1 {
-      color: #000000;
-      font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', Helvetica, Sans;
-      text-transform: uppercase;
-      font-size: 3em;
-      padding: 1em;
-      text-align: center;
-      	}
-     #TopNav {
+	color:#222;
+	font-family: 'Poiret One', 'Explutus Sans', 'Josefin Slab', 'Italiana', Didot, Helvetica, Sans-serif;  /*why isn't this working? */
+	font-size:16px;
+}	
+.Container {
+	max-width: 1000px;
+	margin: auto;
+}
+h1 {
+	font-size: 3em;
+	padding: 1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+#TopNav {
      	text-align: center;
      	border-bottom: 1px black solid;
-     	margin-left: 5%;
-     	margin-right: 8%;
-     	margin-bottom: 2em;
+     	margin: 0 8% 2em 5%;
      	line-height: 1em;
      	text-transform: uppercase;
-     }
+}
      .Ref {
         display: inline-block;
      	padding: 10px 5%;
      	text-transform: uppercase;
      	text-decoration: none;
      	border: none;
-     	color: black;
+     	color: #222;
      }
 
      #Ref_Blog, #Ref_Gallery {
@@ -58,12 +48,12 @@ body {
      	display: inline-block;
      	
      }
-     .clearfix:after {
-		visibility: block;
-		font-size: 0;
-		content: " ";
-		clear: both;
-		height: 0;
+.clearfix:after {
+	visibility: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
   
      hr {
@@ -78,7 +68,6 @@ body {
      
      .HRhead {
      	height: 2px;
-     	color: black;
      	background-color: black;
      	width: 90%;
      	float: left;
